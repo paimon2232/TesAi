@@ -169,7 +169,7 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Robert Media 378</div>
+          <div className={styles["sidebar-title"]}>Robert Media 378</div>
           <div className={styles["sidebar-sub-title"]}>
             Bangun asisten Ai Anda sendiri 🤖
           </div>
