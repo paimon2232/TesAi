@@ -23,9 +23,9 @@ const en: LocaleType = {
     Rename: "Rename Chat",
     Typing: "Typing…",
     Input: (submitKey: string) => {
-      var inputHints = `Ketik pertantaanmu disini...`;
+      var inputHints = ``;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "Ketik pertantaanmu disini...";
+        inputHints += "";
       }
       return inputHints + "";
     },
