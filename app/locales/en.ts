@@ -5,7 +5,7 @@ const en: LocaleType = {
   WIP: "Dalam pengembangan..",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in settings page.",
+      "Tolong masukkan kode yang sudah diberikan oleh admin Robert Media 378 🤖",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
@@ -23,11 +23,11 @@ const en: LocaleType = {
     Rename: "Rename Chat",
     Typing: "Typing…",
     Input: (submitKey: string) => {
-      var inputHints = `${submitKey} to send`;
+      var inputHints = ``;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += ", Shift + Enter to wrap";
+        inputHints += "Ketik pertantaanmu disini...";
       }
-      return inputHints + ", / to search prompts";
+      return inputHints + "";
     },
     Send: "Send",
   },
@@ -151,7 +151,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "Halo! Bagaimana saya bisa membantu Anda hari ini?",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
