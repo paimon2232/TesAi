@@ -6,10 +6,10 @@ import IT from "./it";
 import TR from "./tr";
 import JP from "./jp";
 
-export type { LocaleType } from "./cn";
+export type { LocaleType } from "./en";
 
-export const AllLangs = ["en", "cn", "tw", "es", "it", "tr", "jp"] as const;
-type Lang = (typeof AllLangs)[number];
+export const Langs = ["en"] as const;
+type Lang = (typeof Langs)[number];
 
 const LANG_KEY = "lang";
 
