@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "ChatGPT Robert Media 378",
+  title: "ChatGPT Robert Media",
   description: "ChatGPT Robert Media 378",
   appleWebApp: {
-    title: "ChatGPT Robert Media 378",
+    title: "ChatGPT Robert Media",
     statusBarStyle: "default",
   },
   themeColor: "#fafafa",
