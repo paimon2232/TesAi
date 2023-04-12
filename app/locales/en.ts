@@ -2,7 +2,7 @@ import { SubmitKey } from "../store/app";
 import type { LocaleType } from "./index";
 
 const en: LocaleType = {
-  WIP: "WIP...",
+  WIP: "Dalam pengembangan..",
   Error: {
     Unauthorized:
       "Unauthorized access, please enter access code in settings page.",
@@ -11,7 +11,7 @@ const en: LocaleType = {
     ChatItemCount: (count: number) => `${count} messages`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} messages with ChatGPT`,
+    SubTitle: (count: number) => `${count} messages with ChatGPT Robert Media`,
     Actions: {
       ChatList: "Go To Chat List",
       CompressedHistory: "Compressed History Memory Prompt",
@@ -85,11 +85,11 @@ const en: LocaleType = {
       SubTitle: "Adjust font size of chat content",
     },
     Update: {
-      Version: (x: string) => `Version: ${x}`,
+      Version: (x: string) => `Version: 3.7.8`,
       IsLatest: "Latest version",
       CheckUpdate: "Check Update",
       IsChecking: "Checking update...",
-      FoundUpdate: (x: string) => `Found new version: ${x}`,
+      FoundUpdate: (x: string) => `Found new version: 3.7.8`,
       GoToUpdate: "Update",
     },
     SendKey: "Send Key",
@@ -118,7 +118,7 @@ const en: LocaleType = {
     Token: {
       Title: "API Key",
       SubTitle: "Use your key to ignore access code limit",
-      Placeholder: "OpenAI API Key",
+      Placeholder: "Custom API",
     },
     Usage: {
       Title: "Account Balance",
@@ -132,9 +132,9 @@ const en: LocaleType = {
     AccessCode: {
       Title: "Access Code",
       SubTitle: "Access control enabled",
-      Placeholder: "Need Access Code",
+      Placeholder: "Masukkan Kode Disini",
     },
-    Model: "Model",
+    Model: "Pilih Model",
     Temperature: {
       Title: "Temperature",
       SubTitle: "A larger value makes the more random output",
