@@ -8,8 +8,8 @@ import JP from "./jp";
 
 export type { LocaleType } from "./en";
 
-export const Langs = ["en"] as const;
-type Lang = (typeof Langs)[number];
+export const AllLangs = ["en"] as const;
+type Lang = (typeof AllLangs)[number];
 
 const LANG_KEY = "lang";
 
@@ -66,6 +66,6 @@ export function changeLang(lang: Lang) {
   location.reload();
 }
 
-export default { en: EN, cn: CN, tw: TW, es: ES, it: IT, tr: TR, jp: JP }[
+export default { en: EN }[
   getLang()
 ];
