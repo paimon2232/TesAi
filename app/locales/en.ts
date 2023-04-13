@@ -8,10 +8,10 @@ const en: LocaleType = {
       "Tolong masukkan kode yang sudah diberikan oleh admin Robert Media 378 🤖",
   },
   ChatItem: {
-    ChatItemCount: (count: number) => `${count} messages`,
+    ChatItemCount: (count: number) => `${count} percakapan`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} messages with ChatGPT Robert Media`,
+    SubTitle: (count: number) => `${count} percakapan dengan ChatGPT Robert Media`,
     Actions: {
       ChatList: "Buka Daftar Obrolan",
       CompressedHistory: "Prompt Memori Riwayat Terkompresi",
@@ -169,7 +169,7 @@ const en: LocaleType = {
     Failed: "Penyalinan gagal, berikan izin untuk mengakses papan klip",
   },
   Context: {
-    Toast: (x: any) => `With ${x} contextual prompts`,
+    Toast: (x: any) => `Dengan ${x} petunjuk kontekstual`,
     Edit: "Anjuran Kontekstual dan Memori",
     Add: "Tambahkan",
   },
