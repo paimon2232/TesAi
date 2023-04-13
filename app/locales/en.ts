@@ -85,93 +85,93 @@ const en: LocaleType = {
       SubTitle: "Sesuaikan ukuran font konten obrolan",
     },
     Update: {
-      Version: (x: string) => `Version: 3.7.8`,
-      IsLatest: "Latest version",
-      CheckUpdate: "Check Update",
-      IsChecking: "Checking update...",
-      FoundUpdate: (x: string) => `Found new version: 3.7.8`,
-      GoToUpdate: "Update",
+      Version: (x: string) => `Versi: 3.7.8`,
+      IsLatest: "Versi terbaru",
+      CheckUpdate: "Cek pembaruan",
+      IsChecking: "Memeriksa pembaruan...",
+      FoundUpdate: (x: string) => `Ditemukan versi baru: 3.7.8`,
+      GoToUpdate: "Minta",
     },
-    SendKey: "Send Key",
-    Theme: "Theme",
-    TightBorder: "Tight Border",
-    SendPreviewBubble: "Send Preview Bubble",
+    SendKey: "Kirim Kunci",
+    Theme: "Tema",
+    TightBorder: "Perbatasan Ketat",
+    SendPreviewBubble: "Kirim Gelembung Pratinjau",
     Prompt: {
       Disable: {
-        Title: "Disable auto-completion",
-        SubTitle: "Input / to trigger auto-completion",
+        Title: "Nonaktifkan pelengkapan otomatis",
+        SubTitle: "Masukkan / untuk memicu penyelesaian otomatis",
       },
-      List: "Prompt List",
+      List: "Daftar Permintaan",
       ListCount: (builtin: number, custom: number) =>
         `${builtin} built-in, ${custom} user-defined`,
       Edit: "Edit",
     },
     HistoryCount: {
-      Title: "Attached Messages Count",
-      SubTitle: "Number of sent messages attached per request",
+      Title: "Jumlah Pesan Terlampir",
+      SubTitle: "Jumlah pesan terkirim yang dilampirkan per permintaan",
     },
     CompressThreshold: {
-      Title: "History Compression Threshold",
+      Title: "Ambang Batas Kompresi Histori",
       SubTitle:
-        "Will compress if uncompressed messages length exceeds the value",
+        "Akan dikompresi jika panjang pesan yang tidak dikompresi melebihi nilainya",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "Use your key to ignore access code limit",
+      Title: "Kunci API",
+      SubTitle: "Gunakan kunci API Anda untuk mengabaikan batas Kode Akses",
       Placeholder: "Custom API",
     },
     Usage: {
-      Title: "Account Balance",
+      Title: "Saldo Rekening",
       SubTitle(used: any, total: any) {
-        return `Used this month $${used}, subscription $${total}`;
+        return `Digunakan bulan ini $${used}, berlangganan $${total}`;
       },
-      IsChecking: "Checking...",
-      Check: "Check Again",
-      NoAccess: "Enter API Key to check balance",
+      IsChecking: "Memeriksa...",
+      Check: "Periksa lagi",
+      NoAccess: "Masukkan Kunci API Anda untuk memeriksa saldo",
     },
     AccessCode: {
-      Title: "Access Code",
-      SubTitle: "Access control enabled",
+      Title: "Kode akses",
+      SubTitle: "Kontrol akses diaktifkan untuk menggunakan Layanan",
       Placeholder: "Masukkan Kode Disini",
     },
     Model: "Pilih Model",
     Temperature: {
-      Title: "Temperature",
-      SubTitle: "A larger value makes the more random output",
+      Title: "Pengguna Ahli",
+      SubTitle: "Nilai yang lebih besar membuat output lebih acak dan tidak stabil",
     },
     MaxTokens: {
-      Title: "Max Tokens",
-      SubTitle: "Maximum length of input tokens and generated tokens",
+      Title: "Token Maksimal",
+      SubTitle: "Panjang maksimum token input dan token yang dihasilkan",
     },
     PresencePenlty: {
-      Title: "Presence Penalty",
+      Title: "Penalti Kehadiran",
       SubTitle:
-        "A larger value increases the likelihood to talk about new topics",
+        "Nilai yang lebih besar meningkatkan kemungkinan untuk membicarakan topik baru",
     },
   },
   Store: {
-    DefaultTopic: "New Conversation",
-    BotHello: "Halo! Bagaimana saya bisa membantu Anda hari ini?",
-    Error: "Something went wrong, please try again later.",
+    DefaultTopic: "Percakapan Baru",
+    BotHello: "Halo! Dengan siapa saya berinteraksi?",
+    Error: "Ada yang tidak beres, coba lagi nanti.",
     Prompt: {
       History: (content: string) =>
-        "This is a summary of the chat history between the AI and the user as a recap: " +
+        "Ini ringkasan riwayat obrolan antara AI dan pengguna sebagai rekap: " +
         content,
       Topic:
-        "Please generate a four to five word title summarizing our conversation without any lead-in, punctuation, quotation marks, periods, symbols, or additional text. Remove enclosing quotation marks.",
+        "Harap buat judul empat hingga lima kata yang meringkas percakapan kita tanpa pendahuluan, tanda baca, tanda kutip, titik, simbol, atau teks tambahan. Hapus tanda kutip yang terlampir.",
       Summarize:
-        "Summarize our discussion briefly in 200 words or less to use as a prompt for future context.",
+        "Ringkas diskusi kita secara singkat dalam 200 kata atau kurang untuk digunakan sebagai petunjuk untuk konteks masa depan.",
     },
-    ConfirmClearAll: "Confirm to clear all chat and setting data?",
+    ConfirmClearAll: "Konfirmasi untuk menghapus semua obrolan dan data pengaturan?",
   },
   Copy: {
-    Success: "Copied to clipboard",
-    Failed: "Copy failed, please grant permission to access clipboard",
+    Success: "Disalin ke papan klip",
+    Failed: "Penyalinan gagal, berikan izin untuk mengakses papan klip",
   },
   Context: {
     Toast: (x: any) => `With ${x} contextual prompts`,
-    Edit: "Contextual and Memory Prompts",
-    Add: "Add One",
+    Edit: "Anjuran Kontekstual dan Memori",
+    Add: "Tambahkan",
   },
 };
 
