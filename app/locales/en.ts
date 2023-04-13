@@ -5,7 +5,7 @@ const en: LocaleType = {
   WIP: "Dalam pengembangan..",
   Error: {
     Unauthorized:
-      "Tolong masukkan kode yang sudah diberikan oleh admin Robert Media 378 🤖",
+      "Tolong masukkan Kode yang sudah diberikan oleh admin Robert Media 378 🤖",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} percakapan`,
@@ -103,7 +103,7 @@ const en: LocaleType = {
       },
       List: "Daftar Permintaan",
       ListCount: (builtin: number, custom: number) =>
-        `${builtin} built-in, ${custom} user-defined`,
+        `${builtin} built-in, ${custom} ditetapkan pengguna`,
       Edit: "Edit",
     },
     HistoryCount: {
@@ -121,17 +121,17 @@ const en: LocaleType = {
       Placeholder: "Custom API",
     },
     Usage: {
-      Title: "Saldo Rekening",
+      Title: "Saldo Rekening Anda",
       SubTitle(used: any, total: any) {
         return `Digunakan bulan ini $${used}, berlangganan $${total}`;
       },
       IsChecking: "Memeriksa...",
       Check: "Periksa lagi",
-      NoAccess: "Masukkan Kunci API Anda untuk memeriksa saldo",
+      NoAccess: "Masukkan Kunci Kode Akses Anda untuk memeriksa saldo",
     },
     AccessCode: {
-      Title: "Kode akses",
-      SubTitle: "Kontrol akses diaktifkan untuk menggunakan Layanan",
+      Title: "Kode Akses",
+      SubTitle: "Kontrol akses diaktifkan untuk menggunakan Layanan secara Private",
       Placeholder: "Masukkan Kode Disini",
     },
     Model: "Pilih Model",
