@@ -171,10 +171,13 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>Robert Media 378</div>
           <div className={styles["sidebar-sub-title"]}>
+            + ChatGPT private Anda
+          </div>
+          <div className={styles["sidebar-sub-title"]}>
             + Bangun asisten Ai Anda sendiri
           </div>
           <div className={styles["sidebar-sub-title"]}>
-            + Pergi ke pengaturan untuk memasukkan Kode
+            + Masukkan Kode di pengaturan bawah
           </div>
         </div>
 
