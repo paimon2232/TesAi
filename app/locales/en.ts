@@ -13,15 +13,15 @@ const en: LocaleType = {
   Chat: {
     SubTitle: (count: number) => `${count} messages with ChatGPT Robert Media`,
     Actions: {
-      ChatList: "Go To Chat List",
-      CompressedHistory: "Compressed History Memory Prompt",
-      Export: "Export All Messages as Markdown",
-      Copy: "Copy",
-      Stop: "Stop",
-      Retry: "Retry",
+      ChatList: "Buka Daftar Obrolan",
+      CompressedHistory: "Prompt Memori Riwayat Terkompresi",
+      Export: "Ekspor Semua Pesan sebagai Markdown",
+      Copy: "Menyalin",
+      Stop: "Berhenti",
+      Retry: "Mencoba kembali",
     },
-    Rename: "Rename Chat",
-    Typing: "Typing…",
+    Rename: "Ganti nama Obrolan",
+    Typing: "Mengetik…",
     Input: (submitKey: string) => {
       var inputHints = ``;
       if (submitKey === String(SubmitKey.Enter)) {
@@ -29,42 +29,42 @@ const en: LocaleType = {
       }
       return inputHints + "";
     },
-    Send: "Send",
+    Send: "Kirim",
   },
   Export: {
-    Title: "All Messages",
-    Copy: "Copy All",
-    Download: "Download",
-    MessageFromYou: "Message From You",
-    MessageFromChatGPT: "Message From ChatGPT",
+    Title: "Semua Pesan",
+    Copy: "Salin Semua",
+    Download: "Unduh",
+    MessageFromYou: "Pesan Dari Anda",
+    MessageFromChatGPT: "Pesan Dari ChatGPT",
   },
   Memory: {
-    Title: "Memory Prompt",
-    EmptyContent: "Nothing yet.",
-    Send: "Send Memory",
-    Copy: "Copy Memory",
-    Reset: "Reset Session",
+    Title: "Permintaan Memori",
+    EmptyContent: "Belum ada apa-apa.",
+    Send: "Kirim Memori",
+    Copy: "Salin Memori",
+    Reset: "Setel Ulang Sesi",
     ResetConfirm:
-      "Resetting will clear the current conversation history and historical memory. Are you sure you want to reset?",
+      "Menyetel ulang akan menghapus riwayat percakapan dan memori historis saat ini. Anda yakin ingin menyetel ulang?",
   },
   Home: {
-    NewChat: "New Chat",
-    DeleteChat: "Confirm to delete the selected conversation?",
-    DeleteToast: "Chat Deleted",
-    Revert: "Revert",
+    NewChat: "Obrolan Baru",
+    DeleteChat: "Konfirmasi untuk menghapus percakapan yang dipilih?",
+    DeleteToast: "Obrolan Dihapus",
+    Revert: "Kembali",
   },
   Settings: {
-    Title: "Settings",
-    SubTitle: "All Settings",
+    Title: "Pengaturan",
+    SubTitle: "Semua Pengaturan",
     Actions: {
-      ClearAll: "Clear All Data",
-      ResetAll: "Reset All Settings",
-      Close: "Close",
+      ClearAll: "Hapus Semua Data",
+      ResetAll: "Atur Ulang Semua Pengaturan",
+      Close: "Menutup",
       ConfirmResetAll: {
-        Confirm: "Are you sure you want to reset all configurations?",
+        Confirm: "Apakah Anda yakin ingin mengatur ulang semua konfigurasi?",
       },
       ConfirmClearAll: {
-        Confirm: "Are you sure you want to reset all chat?",
+        Confirm: "Yakin ingin menyetel ulang semua obrolan?",
       },
     },
     Lang: {
@@ -79,10 +79,10 @@ const en: LocaleType = {
         jp: "日本語",
       },
     },
-    Avatar: "Avatar",
+    Avatar: "Pilih Avatar",
     FontSize: {
-      Title: "Font Size",
-      SubTitle: "Adjust font size of chat content",
+      Title: "Ukuran huruf",
+      SubTitle: "Sesuaikan ukuran font konten obrolan",
     },
     Update: {
       Version: (x: string) => `Version: 3.7.8`,
