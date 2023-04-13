@@ -16,7 +16,7 @@ const en: LocaleType = {
       ChatList: "Buka Daftar Obrolan",
       CompressedHistory: "Prompt Memori Riwayat Terkompresi",
       Export: "Ekspor Semua Pesan sebagai Markdown",
-      Copy: "Menyalin",
+      Copy: "Salin",
       Stop: "Berhenti",
       Retry: "Mencoba kembali",
     },
@@ -117,7 +117,7 @@ const en: LocaleType = {
     },
     Token: {
       Title: "Kunci API",
-      SubTitle: "Gunakan kunci API Anda untuk mengabaikan batas Kode Akses",
+      SubTitle: "Gunakan kunci API untuk mengabaikan Kode Akses",
       Placeholder: "Custom API",
     },
     Usage: {
