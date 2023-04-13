@@ -346,6 +346,9 @@ export function Settings(props: { closeSettings: () => void }) {
                 }}
               />
             </SettingItem>
+          ) : (
+            <></>
+          )}
 
           <SettingItem
             title={Locale.Settings.Usage.Title}
