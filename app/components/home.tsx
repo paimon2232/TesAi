@@ -176,9 +176,6 @@ function _Home() {
           <div className={styles["sidebar-sub-title"]}>
             Pergi ke pengaturan untuk memasukkan Kode
           </div>
-          <div className={styles["sidebar-logo"]}>
-            <ChatGptIcon />
-          </div>
         </div>
 
         <div
